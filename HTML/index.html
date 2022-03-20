@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Gürkan's HTML Tutorial</title>
+    <link rel="shortcut icon" href="../images\pageicon2.jpg">
+  </head>
+
+  <body>
+    <header id="header">
+      <p>My HTML Tutorial Page!</p>
+    </header>
+
+      <div id="basichtml">
+            <h3>Basic html form: </h3>
+            <code>
+            <pre id="basic">
+  &lt;html&gt;
+  &lt;head&gt;
+  &lt;title&gt; &lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  This part is for all content
+  &lt;/body&gt;
+  &lt;/html&gt;
+        </pre>
+            </code>
+        </div>
+
+        <div class="paragraphs">
+          <h3>Paragraph, next row and horizontal line tags</h3>
+          <ul>
+            <li>
+              &lt;p&gt;This is a paragraph tag&lt;/p&gt;
+            </li>
+            <li>
+              &lt;p&gt;This tag jumps to the<br>Next row: &lt;br&gt; &lt;p&gt;
+            </li>
+            <li>
+              Horizontal line: &lt;hr&gt;
+              <hr>
+            </li>
+          </ul>
+        </div>
+
+        <div class="texts">
+
+          <h3>Text tags: </h3>
+          <table class="textstable">
+            <tr>
+              <th>Tags</th>
+              <th>Explanation</th>
+              <th>Output</th>
+            </tr>
+            <tr>
+              <td>&lt;b&gt&lt;/b&gt</td>
+              <td>Bold formatting</td>
+              <td><b>Bold text</b></td>
+            </tr>
+            <tr>
+              <td>&lt;i&gt&lt;/i&gt</td>
+              <td>Italic formatting</td>
+              <td><i>Italic Text</i></td>
+            </tr>
+            <tr>
+              <td>&lt;u&gt&lt;/u&gt</td>
+              <td>Underline notification</td>
+              <td><u>Example</u></td>
+            </tr>
+            <tr>
+              <td>&lt;sub&gt&lt;/sub&gt</td>
+              <td>Subscript</td>
+              <td>H<sub>2</sub></td>
+            </tr>
+            <tr>
+              <td>&lt;sup&gt&lt;/sup&gt</td>
+              <td>Superscript</td>
+              <td>X<sup>2</sup></td>
+            </tr>
+            <tr>
+              <td>&lt;code&gt&lt;/code&gt</td>
+              <td>Computer code format</td>
+              <td><code>Example Text</code></td>
+            </tr>
+            <tr>
+              <td>&lt;blockquote&gt&lt;/blockquote&gt</td>
+              <td>Quoting</td>
+              <td><blockquote cite="http://">
+                Text
+              </blockquote></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="headers">
+          <h3 id="headerofheaders">Headers</h3>
+
+          There are 6 header tags in HTML: <br>
+
+          <ul>
+            <li>
+              &lt;h1&gt;This title writes your paragraph as header 1&lt;/h1&gt;
+            <br>Example:
+            <h1>This is a h1 tag!</h1>
+            <hr>
+          </li>
+            <li>
+              &lt;h2&gt;This title writes your paragraph as header 2&lt;/h2&gt;
+              <br>Example:
+              <h2>This is a h2 tag!</h2>
+              <hr>
+            </li>
+            <li>
+              &lt;h3&gt;This title writes your paragraph as header 3&lt;/h3&gt;
+              <br>Example:
+              <h3>This is a h2 tag!</h3>
+              <hr>
+            </li>
+            <li>
+              &lt;h4&gt;This title writes your paragraph as header 4&lt;/h4&gt;
+              <br>Example:
+              <h4>This is a h4 tag!</h4>
+              <hr>
+            </li>
+            <li>
+              &lt;h5&gt;This title writes your paragraph as header 5&lt;/h5&gt;
+              <br>Example:
+              <h5>This is a h5 tag!</h5>
+              <hr>
+            </li>
+            <li>
+              &lt;h6&gt;This title writes your paragraph as header 6&lt;/h6&gt;
+              <br>Example:
+              <h6>This is a h6 tag!</h6>
+              <hr>
+            </li>
+          </ul>
+        </div>
+
+        <div class="links">
+          <h3>Links</h3>
+          The HTML &lt;a&gt tag defines a hyperlink. <br>
+          It has the following syntax: <br>
+          &lt;a&gthref="url">link text&lt;/a&gt <br>
+          If we want to open it in another tab; <br>
+          &lt;a href="url" target="_blank"&gtlink text&lt;/a&gt <br>
+          Example: <br>
+          <a href="https://www.google.com/" target="_blank">google.com</a>
+        </div>
+
+        <div class="images">
+          <h3>Images</h3>
+          Adding a picture <br>
+   &lt;img src="image.jpg" alt="alternatetext"&gt
+   src - Specifies the path to the image. <br>
+   alt - Specifies an alternate text for the image. <br>
+   We can scroll the photos and texts on the screen
+   with the <br> &lt;marquee&gt&lt;/marquee&gt tag. <br>
+
+   Example:
+
+   <marquee direction="right" scrollamount="13"><img class="kitten" src="../images\kitten.jpg" alt="kitten"> </marquee>
+        </div>
+
+        <div class="imagesize">
+          <h3>Image Size - Width and Height</h3>
+          We can use the style attribute to specify the width and height of an image.<br>
+          &lt;img src="image.jpg" alt="alternatetext" style="width:500px;height:600px;"&gt
+        </div>
+
+        <div class="tables">
+          <h3>Tables</h3>
+<pre>
+  Basic table form:
+  &lt;table&gt
+  &lt;tr&gt
+  &lt;th&gt &lt;/th&gt
+  &lt;th&gt &lt;/th&gt
+  &lt;/tr&gt
+  &lt;tr&gt
+  &lt;td&gt &lt;/td&gt
+  &lt;td&gt &lt;/td&gt
+  &lt;/tr&gt
+  &lt;/table&gt
+  &lt;th&gt &lt;/th&gt is name of column
+  &lt;td&gt &lt;/td&gt is name of content
+</pre>
+        </div>
+
+        <div class="lists">
+          <h3>Lists</h3>
+          There are three ways to making a list:
+          <ol>
+            <li>
+              Ordered List
+              <table class="listtable">
+                <tr>
+                  <th>HTML Tags</th>
+                  <th>Outputs</th>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;ol type="1"&gtDrinks <br>
+                    &lt;li&gtCoffee&lt;/li&gt <br>
+                    &lt;li&gtTea&lt;/li&gt <br>
+                    &lt;li&gtWater&lt;/li&gt <br>
+                    &lt;/ol&gt
+                  </td>
+                  <td>
+                    <ol type="1">Drinks
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Water</li>
+                    </ol>
+                  </td>
+                </tr>
+              </table>
+              <p>The variable type determines the type of the ordered list. <br>
+              type: {1, a, A, I, i}</p>
+              </li>
+              <li>
+                Unordered List
+              <table class="listtable">
+                <tr>
+                  <th>HTML Tags</th>
+                  <th>Outputs</th>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;ul type="bullet"&gtFoods <br>
+                    &lt;li>Egg&lt;/li&gt <br>
+                    &lt;li>Soup&lt;/li&gt <br>
+                    &lt;li>Steak&lt;/li&gt <br>
+                    &lt;/ul&gt
+                  </td>
+                  <td>
+                    <ul type="bullet">Foods
+                    <li>Egg</li>
+                    <li>Soup</li>
+                    <li>Steak</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </li>
+            <br>
+            <li>
+              Definition List
+              <table class="listtable">
+                <tr>
+                  <th>HTML Tags</th>
+                  <th>Outputs</th>
+                </tr>
+                <tr>
+                  <td>
+                    &lt;dl&gt <br>
+                    &lt;dt>Dog&lt;/dt&gt <br>
+                    &lt;dd>-A dog is a cute pet.&lt;/dd&gt <br>
+                    &lt;dt>Lion&lt;/dt&gt <br>
+                    &lt;dd>-A lion is a dangerous wild animal.&lt;/dd&gt <br>
+                    &lt;/dl&gt
+                  </td>
+                  <td>
+                    <dl>
+                    <dt>Dog</dt>
+                    <dd>-A dog is a cute pet.</dd>
+                    <dt>Lion</dt>
+                    <dd>-A lion is a dangerous wild animal.</dd>
+                    </dl>
+                  </td>
+                </tr>
+              </table>
+            </li>
+          </ol>
+        </div>
+
+        <div class="video">
+          <h3>Video Adding</h3>
+          Adding a video
+          &lt;video src="video.mp4 controls" alt="alternatetext"&gt <br>
+            src - Specifies the path to the video <br>
+            alt - Specifies an alternate text for the video
+            <br><br>
+            Example: <br>
+            <video width="320" height="240" controls>
+            <source src="../images\pupvid.mp4" type="video/mp4">
+            <source src="../images\pupvid.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="homeicons">
+          <h3>Home Icons</h3>
+          In head tags <br>
+          &lt;link rel="shortcut icon" href="logo.png"&gt
+        </div>
+
+        <div class="colors">
+          <h3>Colors</h3>
+          In HTML documents, colors are specified either by their English names <br>
+          or by "hexadecimal" values in the order of 16 numbers. <br>
+
+          <table class="colortable">
+            <tr>
+              <th>Color</th>
+              <th>Color name</th>
+              <th>Color</th>
+              <th>Color name</th>
+            </tr>
+            <tr>
+              <td style="background: red;"></td>
+              <td>Red</td>
+              <td style="background: black;"></td>
+              <td>Black</td>
+            </tr>
+            <tr>
+              <td style="background: blue;"></td>
+              <td>Blue</td>
+              <td style="background: gray;"></td>
+              <td>Gray</td>
+            </tr>
+            <tr>
+
+              <td style="background: fuchsia;"></td>
+              <td>Fuchsia</td>
+              <td style="background: green;"></td>
+              <td>Green</td>
+            </tr>
+            <tr>
+              <td style="background: teal;"></td>
+              <td>Teal</td>
+              <td style="background: cyan;"></td>
+              <td>Cyan</td>
+            </tr>
+            <tr>
+              <td style="background: navy;"></td>
+              <td>Navy</td>
+              <td style="background: olive;"></td>
+              <td>Olive</td>
+            </tr>
+            <tr>
+              <td style="background: purple;"></td>
+              <td>Purple</td>
+              <td style="background: maroon;"></td>
+              <td>Maroon</td>
+            </tr>
+            <tr>
+              <td style="background: silver;"></td>
+              <td>Silver</td>
+              <td style="background: lime;"></td>
+              <td>Lime</td>
+            </tr>
+            <tr>
+              <td style="background: white;"></td>
+              <td>White</td>
+              <td style="background: yellow;"></td>
+              <td>Yellow</td>
+            </tr>
+          </table>
+
+        </div>
+
+
+
+    <body>
+
+</html>

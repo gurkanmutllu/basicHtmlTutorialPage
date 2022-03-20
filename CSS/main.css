@@ -1,0 +1,272 @@
+body{
+  font-family: cursive;
+  background: #21b9ff;
+}
+
+#header{
+  color: white;
+  text-align: center;
+  background: purple;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+#basichtml{
+  border: 3px solid purple;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#basichtml h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.paragraphs{
+  background-color: #8494ae;
+  border: 3px solid purple;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 15px;
+
+}
+.paragraphs h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.headers{
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+
+}
+
+#headerofheaders{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.texts{
+  background-color: #8494ae;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.texts h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.textstable{
+  margin: 15px;
+}
+
+.textstable th{
+  border: 2px solid blue;
+  background: cyan;
+}
+
+.textstable td{
+  border: 2px solid black;
+}
+
+.links{
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.links h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.images{
+  background-color: #8494ae;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.images h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.kitten{
+  width: 25%;
+  border: 5px dotted blue;
+  border-radius: 25px;
+}
+
+.imagesize{
+  display: inline-block;
+  float: left;
+  width: 47%;
+  height: 360px;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.imagesize h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.tables{
+  display: inline-block;
+  float: left;
+  width: 47%;
+  height: 360px;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.tables h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.lists{
+  float: left;
+  display: inline-block;
+  width: 47%;
+  height: 1165px;
+  background-color: #8494ae;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.lists h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.listtable th{
+  border: 2px solid black;
+  background: cyan;
+  padding: 5px;
+}
+
+.listtable td{
+  padding: 5px;
+  border: 2px solid black;
+
+}
+
+.lists p{
+  color: purple;
+
+}
+
+.video{
+  width: 47%;
+  float: left;
+  display: inline-block;
+  background-color: #8494ae;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+  height: 500px;
+}
+
+.video h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.video video{
+  border-radius: 15px;
+  border: 3px solid purple;
+}
+
+.homeicons{
+  width: 47%;
+  float: left;
+  display: inline-block;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.homeicons h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.colors{
+  width: 47%;
+  float: left;
+  display: inline-block;
+  font-size: 20px;
+  border: 3px solid purple;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.colors h3{
+  border-radius: 10px;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  background: #004494;
+}
+
+.colortable td{
+  border: 3px solid black;
+}
+.colortable th{
+  background: cyan;
+  border: 2px solid black;
+}
